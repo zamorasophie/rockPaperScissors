@@ -3,12 +3,19 @@ function getComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3);
     switch (randomNumber) {
         case 0:
-            return "rock"
+            return "Rock";
         case 1:
-            return "paper"
+            return "Paper";
         case 2:
-            return "scissors"
+            return "Scissors";
     }
 }
 
 console.log(getComputerChoice())
+
+function getHumanChoice() {
+    const humanChoice = prompt("What's your choice?");
+    return humanChoice;
+}
+
+console.log(getHumanChoice())
