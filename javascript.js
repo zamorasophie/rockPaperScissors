@@ -1,8 +1,3 @@
-
-
-
-
-
 function playGame() {
 
     function getComputerChoice() {
@@ -22,10 +17,6 @@ function playGame() {
         const humanChoice = prompt("What's your choice?");
         return humanChoice.toLowerCase();
     }
-
-
-
-
 
     function playRound() {
 
@@ -87,9 +78,6 @@ function playGame() {
     }
     console.log("your score = ", humanScore)
     console.log("computer score =", computerScore)
-
-
 }
-
 
 playGame()
